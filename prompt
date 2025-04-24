@@ -1,0 +1,64 @@
+Here's a revised prompt tailored for developing a custom alarm app using **SwiftUI** for iOS:
+
+---
+
+**Prompt for Developing a Custom Alarm App with SwiftUI:**
+
+**Objective:**
+Create a mobile application similar to a clock app that allows users to set alarms. When setting an alarm, users should be able to record a custom audio message. This audio message will play as the alarm sound when the alarm rings. The app should store all data locally without making network requests.
+
+**Features:**
+
+1. **Alarm Setting:**
+   - Users can set multiple alarms.
+   - When setting an alarm, users should have the option to record a custom audio message.
+   - Users can edit or delete existing alarms.
+
+2. **Audio Recording:**
+   - Provide a user interface to record, save, and play back audio messages.
+   - Save the recorded audio locally on the device.
+
+3. **Alarm Sound:**
+   - When an alarm rings, play the corresponding recorded audio message.
+   - Include options to snooze or stop the alarm.
+
+4. **User Interface:**
+   - Simple, intuitive interface similar to the built-in clock app.
+   - Display a list of all set alarms with the ability to edit or delete each one.
+
+5. **Local Storage:**
+   - Store all alarm data, including the recorded audio messages, locally on the device.
+   - Ensure data persists even if the app is closed or the device is restarted.
+
+**Technologies:**
+Use **SwiftUI** for the user interface and **Swift** for logic. Utilize frameworks such as **AVFoundation** for audio recording and playback, and **UserDefaults** or **Core Data** for local storage. For scheduling alarms, use **UNUserNotificationCenter** or **Timer**.
+
+---
+
+Here's a brief outline of the development process:
+
+1. **Set Up SwiftUI Environment:**
+   - Create a new SwiftUI project in Xcode.
+
+2. **Create Basic App Structure:**
+   - Design views for setting alarms, recording audio, and listing alarms.
+
+3. **Implement Audio Recording:**
+   - Use **AVFoundation** to record and save audio messages.
+
+4. **Manage Local Storage:**
+   - Use **UserDefaults** or **Core Data** to save alarm data and audio file paths.
+
+5. **Handle Alarm Logic:**
+   - Implement alarm scheduling using **UNUserNotificationCenter** or **Timer**, and playback of recorded audio using **AVFoundation**.
+
+
+
+Citations:
+[1] https://developer.android.com/develop/background-work/services/alarms/schedule
+[2] https://learntodroid.com/how-to-create-a-simple-alarm-clock-app-in-android/
+[3] https://www.youtube.com/watch?v=750gsBtAsoI
+[4] https://www.youtube.com/watch?v=4jctJW2LpzQ
+[5] https://www.youtube.com/watch?v=QJwm3Pk8Mv8
+[6] https://developer-service.blog/building-a-custom-alarm-clock-with-python-and-tkinter/
+Act as aprofessional and implement App using swift ui
